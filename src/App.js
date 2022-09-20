@@ -3,9 +3,9 @@ import Advice from "./Advice";
 import "./App.css";
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <Advice />
-    </div>
+    </main>
   );
 }
 

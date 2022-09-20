@@ -48,7 +48,7 @@ function Advice() {
   );
 
   return (
-    <div className="container">
+    <section className="container">
       <div className="advice-info">
         <small>
           ADVICE <span className="advice-num">#{advice.id}</span>
@@ -65,7 +65,7 @@ function Advice() {
           className="rand-button"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
