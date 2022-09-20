@@ -21,6 +21,7 @@ body {
   align-items: center;
   gap: 20px;
   min-height: 100vh;
+  padding: 20px;
 }
 
 .container {
@@ -31,7 +32,6 @@ body {
   padding: 25px;
   border-radius: 20px;
   text-align: center;
-  margin: 0 15px;
 }
 
 .advice-info {
