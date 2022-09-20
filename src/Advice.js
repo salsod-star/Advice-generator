@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import divider from "./divider.svg";
+import dividerDesktop from "./divider.svg";
+import dividerMobile from "./pattern-divider-mobile.svg";
 import randButton from "./icon-dice.svg";
 
 const initData = {
@@ -56,7 +57,8 @@ function Advice() {
       </div>
       <p className="quote-text"> {advice.message}</p>
       <div className="divider">
-        <img src={divider} alt="divider" />
+        <img src={dividerDesktop} alt="divider" className="dividerDesktop" />
+        <img src={dividerMobile} alt="divider" className="dividerMobile" />
       </div>
       <div className="btn-wrapper" onClick={() => setId(() => get_rand(200))}>
         <img
